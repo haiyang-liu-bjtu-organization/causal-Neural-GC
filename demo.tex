@@ -1,0 +1,98 @@
+% !TEX TS-program = pdflatex
+% !TEX encoding = UTF-8 Unicode
+
+% This is a simple template for a LaTeX document using the "article" class.
+% See "book", "report", "letter" for other types of document.
+
+\documentclass[11pt]{article} % use larger type; default would be 10pt
+% \usepackage[backend=bibtex]{biblatex}
+\usepackage[UTF8]{ctex}
+\usepackage[utf8]{inputenc} % set input encoding (not needed with XeLaTeX)
+
+%%% Examples of Article customizations
+% These packages are optional, depending whether you want the features they provide.
+% See the LaTeX Companion or other references for full information.
+
+%%% PAGE DIMENSIONS
+\usepackage{geometry} % to change the page dimensions
+\geometry{a4paper} % or letterpaper (US) or a5paper or....
+% \geometry{margin=2in} % for example, change the margins to 2 inches all round
+% \geometry{landscape} % set up the page for landscape
+%   read geometry.pdf for detailed page layout information
+
+\usepackage{graphicx} % support the \includegraphics command and options
+
+% \usepackage[parfill]{parskip} % Activate to begin paragraphs with an empty line rather than an indent
+
+%%% PACKAGES
+\usepackage{booktabs} % for much better looking tables
+\usepackage{array} % for better arrays (eg matrices) in maths
+\usepackage{paralist} % very flexible & customisable lists (eg. enumerate/itemize, etc.)
+\usepackage{verbatim} % adds environment for commenting out blocks of text & for better verbatim
+\usepackage{subfig} % make it possible to include more than one captioned figure/table in a single float
+% These packages are all incorporated in the memoir class to one degree or another...
+
+%%% HEADERS & FOOTERS
+\usepackage{fancyhdr} % This should be set AFTER setting up the page geometry
+\pagestyle{fancy} % options: empty , plain , fancy
+\renewcommand{\headrulewidth}{0pt} % customise the layout...
+\lhead{}\chead{}\rhead{}
+\lfoot{}\cfoot{\thepage}\rfoot{}
+
+%%% SECTION TITLE APPEARANCE
+\usepackage{sectsty}
+\allsectionsfont{\sffamily\mdseries\upshape} % (See the fntguide.pdf for font help)
+% (This matches ConTeXt defaults)
+
+%%% ToC (table of contents) APPEARANCE
+\usepackage[nottoc,notlof,notlot]{tocbibind} % Put the bibliography in the ToC
+\usepackage[titles,subfigure]{tocloft} % Alter the style of the Table of Contents
+\renewcommand{\cftsecfont}{\rmfamily\mdseries\upshape}
+\renewcommand{\cftsecpagefont}{\rmfamily\mdseries\upshape} % No bold!
+
+%%% END Article customizations
+
+%%% The "real" document content comes below...
+
+\title{非自然数递进稀疏惩罚的神经格兰杰因果关系}
+\author{姚牧芸}
+%\date{} % Activate to display a given date or no date (if empty),
+         % otherwise the current date is printed 
+
+\begin{document}
+\maketitle
+
+\section{引言}
+
+格兰杰因果分析（Granger causality analysis, GCA）作为一种统计方法，被广泛应
+用于经济学、气象学、神经科学等多个领域，以确定一个时间序列是否可以用来预测另一个
+时间序列。尽管该方法最初是为经济学设计的，但其简洁性和计算效率使其在其他领域也得
+到了广泛应用，尤其是在神经科学领域，格兰杰因果分析已经成为研究大脑各区域间功能连
+接的重要工具。 
+
+格兰杰因果分析的核心思想是，如果在包含了某个变量过去的值的情况下，对另一个变量未
+来的预测效果优于仅使用该变量自身的历史信息进行预测，那么我们就认为第一个变量对第
+二个变量有格兰杰因果关系。这种方法在神经科学中的应用尤为重要，因为它可以帮助研究
+者了解大脑不同区域之间的信息流动和通信模式。 
+
+近年来，格兰杰因果分析在神经科学领域的应用逐渐增多，研究者们利用这种方法来研究大
+脑在不同状态下的功能连接，以及在不同疾病状态下大脑网络的变化。例如，有研究通过格
+兰杰因果分析研究了轻度认知障碍（MCI）患者的大脑网络，以寻找疾病的早期生物学标记
+物。 
+
+尽管格兰杰因果分析在神经科学中的应用前景广阔，但也存在一些局限性和挑战。例如，该
+方法依赖于线性模型的假设，这可能限制了其在非线性系统中的适用性。此外，格兰杰因果
+分析通常要求数据是平稳的，这在实际应用中可能难以满足，特别是在处理脑电图（EEG）
+和其他类型的神经信号时。 
+
+尽管如此，格兰杰因果分析仍然是目前研究大脑功能连接的一个重要工具，它的应用不仅帮
+助我们更好地理解大脑的工作原理，而且可能在疾病的早期诊断和治疗中发挥重要作用。在
+这篇论文中，我们将探讨格兰杰因果分析的基本原理、方法、以及在神经科学中的应用案例
+，同时也将讨论其局限性和未来可能的发展方向。
+
+本文的主要贡献有以下几点：
+1.
+
+\section{相关工作}
+
+\end{document}
